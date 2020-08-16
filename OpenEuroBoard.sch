@@ -30,7 +30,7 @@ L Device:R_POT_US RV3
 U 1 1 5E8153CA
 P 12300 6100
 F 0 "RV3" H 12232 6146 50  0000 R CNN
-F 1 "1M LOG" H 12232 6055 50  0000 R CNN
+F 1 "1M" H 12232 6055 50  0000 R CNN
 F 2 "w_pth_resistors:trimmer_alps-rk09k1130ah1" H 12300 6100 50  0001 C CNN
 F 3 "~" H 12300 6100 50  0001 C CNN
 	1    12300 6100
@@ -1453,7 +1453,7 @@ L Connector:AudioJack2_SwitchT J6
 U 1 1 5F872169
 P 4300 3100
 F 0 "J6" H 4120 3033 50  0000 R CNN
-F 1 "Jack" H 4120 3124 50  0000 R CNN
+F 1 "Jack 1" H 4120 3124 50  0000 R CNN
 F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 4300 3100 50  0001 C CNN
 F 3 "~" H 4300 3100 50  0001 C CNN
 	1    4300 3100
@@ -1492,7 +1492,7 @@ L Connector:AudioJack2_SwitchT J9
 U 1 1 5F916B28
 P 5050 3100
 F 0 "J9" H 4870 3033 50  0000 R CNN
-F 1 "Jack" H 4870 3124 50  0000 R CNN
+F 1 "Jack 3" H 4870 3124 50  0000 R CNN
 F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 5050 3100 50  0001 C CNN
 F 3 "~" H 5050 3100 50  0001 C CNN
 	1    5050 3100
@@ -1518,7 +1518,7 @@ L Connector:AudioJack2_SwitchT J12
 U 1 1 5F9293BE
 P 5800 3100
 F 0 "J12" H 5620 3033 50  0000 R CNN
-F 1 "Jack" H 5620 3124 50  0000 R CNN
+F 1 "Jack 5" H 5620 3124 50  0000 R CNN
 F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 5800 3100 50  0001 C CNN
 F 3 "~" H 5800 3100 50  0001 C CNN
 	1    5800 3100
@@ -1544,7 +1544,7 @@ L Connector:AudioJack2_SwitchT J14
 U 1 1 5F93C01F
 P 6550 3100
 F 0 "J14" H 6370 3033 50  0000 R CNN
-F 1 "Jack" H 6370 3124 50  0000 R CNN
+F 1 "Jack 7" H 6370 3124 50  0000 R CNN
 F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 6550 3100 50  0001 C CNN
 F 3 "~" H 6550 3100 50  0001 C CNN
 	1    6550 3100
@@ -1570,7 +1570,7 @@ L Connector:AudioJack2_SwitchT J7
 U 1 1 5F94F0EE
 P 4300 3750
 F 0 "J7" H 4120 3683 50  0000 R CNN
-F 1 "Jack" H 4120 3774 50  0000 R CNN
+F 1 "Jack 2" H 4120 3774 50  0000 R CNN
 F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 4300 3750 50  0001 C CNN
 F 3 "~" H 4300 3750 50  0001 C CNN
 	1    4300 3750
@@ -1596,7 +1596,7 @@ L Connector:AudioJack2_SwitchT J10
 U 1 1 5F94F0FD
 P 5050 3750
 F 0 "J10" H 4870 3683 50  0000 R CNN
-F 1 "Jack" H 4870 3774 50  0000 R CNN
+F 1 "Jack 4" H 4870 3774 50  0000 R CNN
 F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 5050 3750 50  0001 C CNN
 F 3 "~" H 5050 3750 50  0001 C CNN
 	1    5050 3750
@@ -1622,7 +1622,7 @@ L Connector:AudioJack2_SwitchT J13
 U 1 1 5F94F10C
 P 5800 3750
 F 0 "J13" H 5620 3683 50  0000 R CNN
-F 1 "Jack" H 5620 3774 50  0000 R CNN
+F 1 "Jack 6" H 5620 3774 50  0000 R CNN
 F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 5800 3750 50  0001 C CNN
 F 3 "~" H 5800 3750 50  0001 C CNN
 	1    5800 3750
@@ -1648,7 +1648,7 @@ L Connector:AudioJack2_SwitchT J15
 U 1 1 5F94F11B
 P 6550 3750
 F 0 "J15" H 6370 3683 50  0000 R CNN
-F 1 "Jack" H 6370 3774 50  0000 R CNN
+F 1 "Jack 8" H 6370 3774 50  0000 R CNN
 F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 6550 3750 50  0001 C CNN
 F 3 "~" H 6550 3750 50  0001 C CNN
 	1    6550 3750
@@ -3689,4 +3689,99 @@ Wire Wire Line
 Connection ~ 7750 6750
 Wire Wire Line
 	7750 6750 7750 6600
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J55
+U 1 1 5F3DB406
+P 4150 7200
+F 0 "J55" H 4200 7617 50  0000 C CNN
+F 1 "Jumpers" H 4200 7526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4150 7200 50  0001 C CNN
+F 3 "~" H 4150 7200 50  0001 C CNN
+	1    4150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5F41DDFC
+P 5800 7200
+F 0 "J?" V 5766 6912 50  0000 R CNN
+F 1 "Conn_01x04" V 5675 6912 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5800 7200 50  0001 C CNN
+F 3 "~" H 5800 7200 50  0001 C CNN
+	1    5800 7200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 7100 0    50   Input ~ 0
+TEST1
+Text GLabel 5600 7200 0    50   Input ~ 0
+TEST2
+Text GLabel 5600 7400 0    50   Input ~ 0
+TEST4
+Text GLabel 5600 7300 0    50   Input ~ 0
+TEST3
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5F5E8658
+P 6700 7200
+F 0 "J?" V 6800 7550 50  0000 C CNN
+F 1 "Conn_01x08" V 6826 7146 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6700 7200 50  0001 C CNN
+F 3 "~" H 6700 7200 50  0001 C CNN
+	1    6700 7200
+	1    0    0    -1  
+$EndComp
+Text GLabel 6500 7100 0    50   Input ~ 0
+TEST1
+Text GLabel 6500 7200 0    50   Input ~ 0
+TEST2
+Text GLabel 6500 7400 0    50   Input ~ 0
+TEST4
+Text GLabel 6500 7300 0    50   Input ~ 0
+TEST3
+$Comp
+L power:+12V #PWR?
+U 1 1 5F7B1B41
+P 6350 6900
+F 0 "#PWR?" H 6350 6750 50  0001 C CNN
+F 1 "+12V" H 6350 7150 50  0000 C CNN
+F 2 "" H 6350 6900 50  0001 C CNN
+F 3 "" H 6350 6900 50  0001 C CNN
+	1    6350 6900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 6900 6500 6900
+$Comp
+L power:+12V #PWR?
+U 1 1 5F8B74FB
+P 6350 7000
+F 0 "#PWR?" H 6350 6850 50  0001 C CNN
+F 1 "+12V" H 6350 7250 50  0000 C CNN
+F 2 "" H 6350 7000 50  0001 C CNN
+F 3 "" H 6350 7000 50  0001 C CNN
+	1    6350 7000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 7000 6500 7000
+$Comp
+L power:GND #PWR?
+U 1 1 5F9BE033
+P 6250 7650
+F 0 "#PWR?" H 6250 7400 50  0001 C CNN
+F 1 "GND" H 6250 7400 50  0000 C CNN
+F 2 "" H 6250 7650 50  0001 C CNN
+F 3 "" H 6250 7650 50  0001 C CNN
+	1    6250 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 7600 6250 7600
+Wire Wire Line
+	6250 7600 6250 7650
+Wire Wire Line
+	6250 7500 6250 7600
+Connection ~ 6250 7600
+Wire Wire Line
+	6250 7500 6500 7500
 $EndSCHEMATC
