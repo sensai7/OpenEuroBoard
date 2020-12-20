@@ -1454,7 +1454,7 @@ U 1 1 5F872169
 P 4300 3100
 F 0 "J6" H 4120 3033 50  0000 R CNN
 F 1 "Jack 1" H 4120 3124 50  0000 R CNN
-F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 4300 3100 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 4300 3100 50  0001 C CNN
 F 3 "~" H 4300 3100 50  0001 C CNN
 	1    4300 3100
 	1    0    0    1   
@@ -1493,7 +1493,7 @@ U 1 1 5F916B28
 P 5050 3100
 F 0 "J9" H 4870 3033 50  0000 R CNN
 F 1 "Jack 3" H 4870 3124 50  0000 R CNN
-F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 5050 3100 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 5050 3100 50  0001 C CNN
 F 3 "~" H 5050 3100 50  0001 C CNN
 	1    5050 3100
 	1    0    0    1   
@@ -1519,7 +1519,7 @@ U 1 1 5F9293BE
 P 5800 3100
 F 0 "J12" H 5620 3033 50  0000 R CNN
 F 1 "Jack 5" H 5620 3124 50  0000 R CNN
-F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 5800 3100 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 5800 3100 50  0001 C CNN
 F 3 "~" H 5800 3100 50  0001 C CNN
 	1    5800 3100
 	1    0    0    1   
@@ -1545,7 +1545,7 @@ U 1 1 5F93C01F
 P 6550 3100
 F 0 "J14" H 6370 3033 50  0000 R CNN
 F 1 "Jack 7" H 6370 3124 50  0000 R CNN
-F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 6550 3100 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6550 3100 50  0001 C CNN
 F 3 "~" H 6550 3100 50  0001 C CNN
 	1    6550 3100
 	1    0    0    1   
@@ -1571,7 +1571,7 @@ U 1 1 5F94F0EE
 P 4300 3750
 F 0 "J7" H 4120 3683 50  0000 R CNN
 F 1 "Jack 2" H 4120 3774 50  0000 R CNN
-F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 4300 3750 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 4300 3750 50  0001 C CNN
 F 3 "~" H 4300 3750 50  0001 C CNN
 	1    4300 3750
 	1    0    0    1   
@@ -1597,7 +1597,7 @@ U 1 1 5F94F0FD
 P 5050 3750
 F 0 "J10" H 4870 3683 50  0000 R CNN
 F 1 "Jack 4" H 4870 3774 50  0000 R CNN
-F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 5050 3750 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 5050 3750 50  0001 C CNN
 F 3 "~" H 5050 3750 50  0001 C CNN
 	1    5050 3750
 	1    0    0    1   
@@ -1623,7 +1623,7 @@ U 1 1 5F94F10C
 P 5800 3750
 F 0 "J13" H 5620 3683 50  0000 R CNN
 F 1 "Jack 6" H 5620 3774 50  0000 R CNN
-F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 5800 3750 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 5800 3750 50  0001 C CNN
 F 3 "~" H 5800 3750 50  0001 C CNN
 	1    5800 3750
 	1    0    0    1   
@@ -1649,7 +1649,7 @@ U 1 1 5F94F11B
 P 6550 3750
 F 0 "J15" H 6370 3683 50  0000 R CNN
 F 1 "Jack 8" H 6370 3774 50  0000 R CNN
-F 2 "SensaiLib:Thonkiconn Mono vertical minijack" H 6550 3750 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6550 3750 50  0001 C CNN
 F 3 "~" H 6550 3750 50  0001 C CNN
 	1    6550 3750
 	1    0    0    1   
