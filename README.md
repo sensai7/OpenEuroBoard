@@ -24,4 +24,44 @@ Kicad and Gerber (TBD) files for the manufacturing of electronic synthesizers pr
  * Screw mount holes
 
 ## Bill Of Materials:
-TBD
+|Section          |Type             |Model                   |Amount|
+|-----------------|-----------------|------------------------|------|
+|General          |Male Header      |2x5 dupont header       |2     |
+|                 |Female Header    |1x40 dupont header      |2     |
+|                 |Voltage regulator|7805                    |1     |
+|                 |LED              |3mm Red LED             |1     |
+|                 |Resistor         |2.2k                    |1     |
+|                 |Capacitor        |100n                    |2     |
+|                 |Elec. Capacitor  |10u                     |4     |
+|Screen interfaces|Screen           |                        |1     |
+|quad op-amps     |Op. amp          |TL074                   |2     |
+|                 |Capacitor        |100n                    |4     |
+|Push buttons     |Push button      |6mm push                |4     |
+|MIDI IN-OUT      |Din-5 Connector  |Din-5 Connector         |2     |
+|                 |Optocoupler      |6n139                   |1     |
+|                 |Dual inverter    |CD40107BE               |1     |
+|                 |Diode            |1n4148                  |1     |
+|                 |Resistor         |220                     |3     |
+|                 |Resistor         |270                     |1     |
+|                 |Resistor         |120                     |2     |
+|Minijack sockets |Minijack         |Thonkiconn jack         |8     |
+|Potentiometer    |Potentiometer    |Alps vertical pot       |5     |
+|Switches         |SPDT             |8.5mm SPDT              |4     |
+|LEDS             |LED              |3mm Red LED             |4     |
+|                 |Resistor         |1k                      |4     |
+|Jumper storage   |Jumper           |2.54mm jumper           |5     |
+|Stereo out       |Op. amp          |TL072                   |1     |
+|                 |Capacitor        |100n                    |2     |
+|                 |Minijack         |Vertical stereo jack    |1     |
+|Gate generators  |Push button      |6mm push                |2     |
+|                 |Resistor         |4.7k                    |2     |
+|CV Generators    |Potentiometer    |Alps vertical pot 100k  |2     |
+|Oscillators      |Op. amp          |Tl074                   |1     |
+|                 |Capacitor        |100n                    |2     |
+|                 |Potentiometer    |Alps vertical pot 1M LOG|2     |
+|                 |SPDT             |8.5mm SPDT              |2     |
+|                 |Capacitor        |1u                      |2     |
+|                 |Capacitor        |22n                     |2     |
+|                 |Resistor         |1k                      |2     |
+|                 |Resistor         |10k                     |4     |
+|                 |Resistor         |100k                    |2     |
