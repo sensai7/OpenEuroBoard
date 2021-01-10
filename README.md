@@ -1,5 +1,5 @@
 # OpenEuroBoard
-Kicad and Gerber (TBD) files for the manufacturing of electronic synthesizers prototyping and developing, focusing on utilities to prototype Eurorack modules. All the sections in the board are independent from each other (except the Gate/CV generators) that need the 5V regulator part, and can be disregarded if they're not needed for the user application.
+Kicad and Gerber files for the manufacturing of electronic synthesizers prototyping and developing, focusing on utilities to prototype Eurorack modules. All the sections in the board are independent from each other (except the Gate/CV generators) that need the 5V regulator part, and can be disregarded if they're not needed for the user application.
 
 ![Board](https://i.imgur.com/G72g0NL.jpg)
 
@@ -33,7 +33,7 @@ Kicad and Gerber (TBD) files for the manufacturing of electronic synthesizers pr
 |                 |Resistor         |2.2k                    |1     |
 |                 |Capacitor        |100n                    |2     |
 |                 |Elec. Capacitor  |10u                     |4     |
-|Screen interfaces|Screen           |                        |1     |
+|Screen interfaces|Screen           |SSD1306                 |1     |
 |quad op-amps     |Op. amp          |TL074                   |2     |
 |                 |Capacitor        |100n                    |4     |
 |Push buttons     |Push button      |6mm push                |4     |
