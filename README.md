@@ -1,9 +1,10 @@
 # OpenEuroBoard
 Kicad and Gerber files for the manufacturing of electronic synthesizers prototyping and developing, focusing on utilities to prototype Eurorack modules. All the sections in the board are independent from each other (except the Gate/CV generators) that need the 5V regulator part, and can be disregarded if they're not needed for the user application.
 
-![Board](https://i.imgur.com/G72g0NL.jpg)
+![Board](https://i.imgur.com/00jSJdN.png)
 
 ![Board](https://i.imgur.com/hLiPsu5.jpeg)
+(This is from an older version but the features are the same)
 
 ## Feature List:
  * Size adjusted to fit exactly a standard sized breadboard.
@@ -28,7 +29,7 @@ Kicad and Gerber files for the manufacturing of electronic synthesizers prototyp
 |-----------------|-----------------|------------------------|------|
 |General          |Male Header      |2x5 dupont header       |2     |
 |                 |Female Header    |1x40 dupont header      |2     |
-|                 |Voltage regulator|7805                    |1     |
+|                 |Voltage regulator|LM1117-5                |1     |
 |                 |LED              |3mm Red LED             |1     |
 |                 |Resistor         |2.2k                    |1     |
 |                 |Capacitor        |100n                    |2     |
@@ -57,11 +58,16 @@ Kicad and Gerber files for the manufacturing of electronic synthesizers prototyp
 |                 |Resistor         |4.7k                    |2     |
 |CV Generators    |Potentiometer    |Alps vertical pot 100k  |2     |
 |Oscillators      |Op. amp          |Tl074                   |1     |
-|                 |Capacitor        |100n                    |2     |
+|                 |Capacitor        |100n                    |4     |
 |                 |Potentiometer    |Alps vertical pot 1M LOG|2     |
 |                 |SPDT             |8.5mm SPDT              |2     |
 |                 |Capacitor        |1u                      |2     |
 |                 |Capacitor        |22n                     |2     |
-|                 |Resistor         |1k                      |2     |
+|                 |Resistor         |1k                      |4     |
 |                 |Resistor         |10k                     |4     |
 |                 |Resistor         |100k                    |2     |
+
+## Changelog
+
+V1.0 First version
+V1.1 Addressed the issues from [Issue 1](https://github.com/sensai7/OpenEuroBoard/issues/1). Updated Silkscreen
