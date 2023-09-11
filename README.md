@@ -69,5 +69,5 @@ Kicad and Gerber files for the manufacturing of electronic synthesizers prototyp
 
 ## Changelog
 
-V1.0 First version
-V1.1 Addressed the issues from [Issue 1](https://github.com/sensai7/OpenEuroBoard/issues/1). Updated Silkscreen
+ * V1.0 First version
+ * V1.1 Addressed the issues from [Issue 1](https://github.com/sensai7/OpenEuroBoard/issues/1). Updated Silkscreen
